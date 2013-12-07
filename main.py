@@ -9,7 +9,8 @@ from petl import *
 
 file = open('facts.json', 'r')
 json_data = json.load(file)
-list_titles ['Water, Sanitation and Hygiene for Southern Mali', 'Improving Nutrition through Homestead Food Production']
+# list_titles = ['Water, Sanitation and Hygiene for Southern Mali', 'Improving Nutrition through Homestead Food Production']
+
 
 petl_data = fromjson('facts.json')
 print look(petl_data)
